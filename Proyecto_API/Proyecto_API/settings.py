@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'Proyecto_API.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': 'databasedjangoreact.cyizwipmnkdr.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
         'USER': 'jotozhun',
         'PASSWORD': 'Lapelas123!',
-        'NAME': 'django_api',
+        'NAME': 'api_company',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
